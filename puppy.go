@@ -1,18 +1,8 @@
 package puppy
-import(
-	"github.com/Khushbookhanum/dog"
-)
 
-
-func Bark()string{
-	return "woow"
+func bark() string {
+	return "woow!"
 }
-func Barks()string {
-	return "woow""woow""woow"
-}
-func Bigbark() string{
-	return dog.whenGrownUp(Bark())
-}
-func Bigbarks() string{
-	return dog.whenGrownUp(Barks())
+func barks() string {
+	return "wooow,wooow!"
 }
